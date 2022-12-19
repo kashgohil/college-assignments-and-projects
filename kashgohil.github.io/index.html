@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="/image-1.ico" />
+		<title>Kashyap Gohil Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="/">
+					<img src="img/image-1.png" alt="image-1" />
+				</a>
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"> </span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="index.html#" class="nav__link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="index.html#services" class="nav__link">My Experience</a>
+					</li>
+					<li class="nav__item">
+						<a href="index.html#work" class="nav__link">My Projects</a>
+					</li>
+					<li class="nav__item">
+						<a href="index.html#footer" class="nav__link">Contact Me</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--Introduction Section-->
+		<section class="intro" id="home">
+			<!-- <h1 class="section__title section__title--intro">
+				Hi, I am <strong>Kashyap Gohil</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">
+				<span>Software Engineer</span>
+			</p>
+			<img src="img/profilephoto.png" alt="profilephoto" class="intro__img" />
+			<p class="intro__body">
+				Learning new things and having fun while at it!!
+			</p> -->
+			<h1 class="section__title">Hey, Kashyap here.</h1>
+			<span class="para-container">
+				<p class="section__para">Glad you check out my website.</p>
+				<p class="section__para">Let me tell you something about me.</p>
+				<p class="section__para">
+					I am a full stack engineer, working at Western International Group. I
+					love to learn new things and implement them. I like to read books and
+					I'm a massive football guy.
+				</p>
+				<p class="section__para">
+					In short, learning new things and having fun while at it!
+				</p>
+			</span>
+		</section>
+
+		<!--My services-->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">Experience</h2>
+			<!--Services-->
+			<div class="services">
+				<!--service-->
+				<div class="service">
+					<h3>Full stack Engineer</h3>
+					<p>
+						I am currently a Full stack Engineer at the Western International
+						Group. I lead the front end team that handles all the e-commerce
+						sites (wigme.com, b2b.wigme.com, parajohn.com, kryptonworld.com) and
+						inventory app.
+					</p>
+				</div>
+				<!--service-->
+				<div class="service">
+					<h3>Research Intern</h3>
+					<p>
+						As a research Intern at Dhirubhai Ambani Institute of Information
+						and Communication Technology (DA-IICT), I was involved in the
+						research and developement of a Pedestrian Detection System.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!--My Work-->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">Projects</h2>
+
+			<div class="portfolio">
+				<div class="portfolio-items">
+					<!-- Portfolio item 1 -->
+					<figure class="portfolio-item">
+						Ds-algo visualiser
+						<figcaption>
+							<h2 class="portfolio-title">Ds-algo visualiser</h2>
+							<p class="portfolio-desc">
+								A web app where you can learn ds-algo with fun. Basic
+								information provided with a interactive demo that displays how a
+								data strcutures or how a algorithm works
+							</p>
+							<a
+								href="https://ds-algo.netlify.app"
+								class="portfolio-link"
+								target="_blank"
+								>netlify hosted site:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+							/></a>
+							<a
+								href="https://github.com/kashgohil/Algo-visualized"
+								class="portfolio-link"
+								target="_blank"
+								>Github:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+							/></a>
+						</figcaption>
+					</figure>
+
+					<!-- Portfolio item 2 -->
+					<figure class="portfolio-item">
+						LinkedIn type web app with test portal
+						<figcaption>
+							<h2 class="portfolio-title">
+								LinkedIn type web app with test portal
+							</h2>
+							<p class="portfolio-desc">
+								A web app with basic functionality of linkedIn. CV analysis and
+								test portal are added on top of linkedIn basics. Used
+								technologies: React.js, Redux, Material UI, Python, Flask
+							</p>
+							<a
+								href="https://github.com/kashgohil/SEN_Project"
+								class="portfolio-link"
+								target="_blank"
+								>Github:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+								/>
+							</a>
+						</figcaption>
+					</figure>
+
+					<!-- Portfolio item 3 -->
+					<figure class="portfolio-item">
+						Expense Tracker based on speech
+						<figcaption>
+							<h2 class="portfolio-title">Expense Tracker based on speech</h2>
+							<p class="portfolio-desc">
+								you speak and your income and expenses are documented! A
+								speechly based expense tracker developed react js, speechly
+								module and scss
+							</p>
+							<a
+								href="https://github.com/kashgohil/expense-tracker-speechly"
+								class="portfolio-link"
+								target="_blank"
+								>Github:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+							/></a>
+						</figcaption>
+					</figure>
+
+					<figure class="portfolio-item">
+						Pygame Module based games
+						<figcaption>
+							<h2 class="portfolio-title">Pygame Module based games</h2>
+							<p class="portfolio-desc">
+								Take back to the retro time! Vintage snake game and space
+								invader game are developed using pygame module (You can find
+								different repos in my github profile)
+							</p>
+							<a
+								href="https://github.com/kashgohil"
+								class="portfolio-link"
+								target="_blank"
+								>Github:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+							/></a>
+						</figcaption>
+					</figure>
+
+					<figure class="portfolio-item">
+						Pedestrian Detection System
+						<figcaption>
+							<h2 class="portfolio-title">Pedestrian Detection System</h2>
+							<p class="portfolio-desc">
+								As the name suggests, it detects pedestrians!! It does it in the
+								real time. Speed approximation is also an added feature!
+							</p>
+							<a
+								href="https://github.com/kashgohil/pedestrian-detection-system"
+								target="_blank"
+								class="portfolio-link"
+								>Github:
+								<img
+									src="img/white-arrow.svg"
+									class="white-arrow-svg"
+									alt="white arrow"
+								/>
+							</a>
+						</figcaption>
+					</figure>
+					<figure class="portfolio-item">
+						Accident Detection and Notification Sytem
+						<figcaption>
+							<h2 class="portfolio-title">
+								Accident Detection and Notification System
+							</h2>
+							<p class="portfolio-desc">
+								A dedicated hardware system made for the accident detection.
+								Added the Web App and an Androind App to make the project usable
+								in real life by Emergency Assistance Provider during the
+								accidents.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<!--Footer-->
+		<footer class="footer" id="footer">
+			<a href="mailto:kashyapgohil476@gmail.com" class="footer__link"
+				>hello@kashyap</a
+			>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://www.github.com/kashgohil"
+						target="_blank"
+					>
+						<i class="fa fa-github"></i>
+					</a>
+				</li>
+
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://www.linkedin.com/in/kashyap-gohil-5190a7128/"
+						target="_blank"
+					>
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+#box {
+    width: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+}

@@ -1,0 +1,26 @@
+.card {
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+
+	&-header {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	&-content {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+
+		&-header {
+			font-size: 20px;
+		}
+	}
+
+	.transactions{
+		text-align: start;
+		padding: 10px;
+		box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.2);
+	}
+}

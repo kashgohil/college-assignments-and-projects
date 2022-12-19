@@ -1,0 +1,35 @@
+.transactions-list {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 20vh;
+	width: 100%;
+
+	.header {
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.scrollable-list {
+		overflow-y: scroll;
+		height: 100%;
+		width: 100%;
+		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	.transaction-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

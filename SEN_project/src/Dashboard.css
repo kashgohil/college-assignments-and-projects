@@ -1,0 +1,18 @@
+#butt {
+    position: relative;
+    left: 88%;
+    margin-left: 50px;
+}
+
+#postajob {
+    top: 10%;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    position: absolute;
+}
+
+
+#postjob {
+    padding: 20px;
+}

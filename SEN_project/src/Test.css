@@ -1,0 +1,36 @@
+#how {
+
+    top: 100px;
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+#itis {
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+}
+
+#why {
+    padding: 40px;
+
+}
+
+h2 {
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+#nope {
+    position: relative;
+    left: 50%;
+    width: 800px;
+    padding-top: 23px;
+    margin-left: -400px;
+}

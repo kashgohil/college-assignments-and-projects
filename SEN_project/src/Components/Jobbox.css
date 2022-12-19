@@ -1,0 +1,146 @@
+#viewmodal {
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+}
+
+#whythis {
+    overflow: scroll;
+}
+
+#viewmodalid {
+    padding: 30px;
+}
+
+#viewmodalnext {
+    padding: 30px;
+    margin: 30px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: normal;
+    color: black;
+}
+
+h4 {
+    font-family: Roboto;
+    font-weight: normal;
+    color: #5d5d5d;
+}
+
+
+#mn {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+#no {
+    padding-left: 20px;
+}
+
+#nono {
+    padding-left: 20px;
+}
+
+#ab {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#cd {
+    position: relative;
+    left: 5%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#ef {
+
+    position: relative;
+    left: 8%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#gh {
+    position: relative;
+    left: 44%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+#xa {
+    position: relative;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#xb {
+    position: relative;
+    left: 12%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#xc {
+    position: relative;
+    left: 20%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#xd {
+    position: relative;
+    left: 0%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#xe {
+    position: relative;
+    left: 11%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#xf {
+    position: relative;
+    left: 21%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: gray;
+}
+
+#bewafa {
+    position: relative;
+    left: 84%;
+    margin-bottom: 10px;
+}
+
+#tabah {
+    position: relative;
+    left: 66%;
+    margin-bottom: 10px;
+}

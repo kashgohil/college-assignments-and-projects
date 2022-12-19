@@ -1,0 +1,68 @@
+#nomoret1 {
+    width: 123px;
+    display: inline-block;
+    left: 0%;
+    position: relative;
+
+}
+
+#ll1 {
+    position: relative;
+    left: 0%;
+    display: inline-block;
+}
+
+#ll2 {
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}
+
+#ll3 {
+    position: relative;
+    left: 10%;
+    display: inline-block;
+}
+
+#ll4 {
+    position: relative;
+    left: 15%;
+    display: inline-block;
+}
+
+#ll5 {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+}
+
+#yet {
+    position: relative;
+    font-family: Roboto;
+    color: black;
+}
+
+#nomoret2 {
+
+    width: 123px;
+    display: inline-block;
+    left: 10%;
+    position: relative;
+
+}
+
+#nomoret3 {
+    width: 123px;
+    display: inline-block;
+    left: 20%;
+    position: relative;
+
+}
+
+#nomoret4 {
+    width: 123px;
+    display: inline-block;
+    left: 30%;
+    position: relative;
+
+}

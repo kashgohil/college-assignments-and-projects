@@ -1,0 +1,42 @@
+#appbar {
+  position: relative;
+  width: 265px;
+  margin-left: -132px;
+  top: 150px;
+  left: 50%;
+}
+
+#pls {
+
+  width: 100%;
+}
+
+#snack {
+  position: absolute;
+}
+
+#login {
+  position: relative;
+  width: 265px;
+  margin-left: -132px;
+  top: 170px;
+  left: 50%;
+}
+
+#register {
+  position: relative;
+  width: 320px;
+  margin-left: -160px;
+  top: 170px;
+  left: 50%;
+}
+
+#wel {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  font-size: 25px;
+  margin-left: -110px;
+  font-family: Roboto;
+  font-weight: normal;
+}

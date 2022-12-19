@@ -1,0 +1,19 @@
+#notnow {
+    padding: 18px;
+}
+
+p,
+h3 {
+    font-family: Roboto;
+    font-weight: normal;
+
+}
+
+#lol {
+    top: 5%;
+}
+
+#job {
+    left: 72%;
+    position: relative;
+}
